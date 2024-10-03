@@ -15,11 +15,7 @@ closeCart.onclick = () => {
 
 
 // cart working js
-if(document.readyState == "loading"){
-    document.addEventListener("DOMContentLoaded", ready)
-}else {
-    ready();
-}
+
 
 // making function 
 function ready(){
